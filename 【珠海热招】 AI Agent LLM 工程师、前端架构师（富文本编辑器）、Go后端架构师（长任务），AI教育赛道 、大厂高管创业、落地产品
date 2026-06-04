@@ -1,0 +1,105 @@
+
+高级 AI Agent / LLM 工程师   base：珠海
+
+职位描述
+我们正在把复杂的教育内容生产流程Agent化，从教学目标到可编辑稿件，希望找到真正做过production agent的工程师，一起建设可上线、可评估、可回放、可持续优化的Agent系统。
+
+岗位职责
+1. 主导Agent能力从Inline Copilot、任务级Agent、自主产课Pipeline到多Agent协作的技术方案设计。
+2. 负责agent runtime、tool calling、provider routing、human-in-the-loop等核心能力建设。
+3. 设计从教学目标到可编辑稿件的完整Agent workflow。
+4. 建设Agent评估集、回归测试、debug replay和stale detection机制。
+5. 在成本、延迟和质量之间做工程权衡，持续优化生产环境效果。
+6. 与前端架构师协作落地Copilot，与后端架构师协作落地任务级Agent。
+
+任职要求
+1. 4年以上工程经验，Go、TypeScript、Python背景不限。
+2. 至少1-2年深度LLM应用工程经验。
+3. 熟悉function calling、tool use和multi-step workflow。
+4. 熟悉Coze、扣子、Dify、AutoGen、n8n、OpenAI Codex、Claude Code或自研agent runtime中至少一种，并理解其编排思路。
+5. 做过prompt engineering、模型路由、成本控制和fallback设计。
+6. 做过LLM应用评估集或regression流程。
+7. 做过至少一个真实上线的production agent。
+
+加分项
+1. 深度参与过 agent runtime 或 workflow engine。
+2. 做过教育内容生成、知识库问答、内容审核、长文档生成、代码生成或创作工具类 agent。
+3. 做过 agent 回放调试平台、工具调用协议或多 agent 协作框架。
+4. 对教育或创作内容的质量标准、合规边界有认知。
+
+岗位亮点
+1. 真实 Production Agent 机会，不是 demo 或 PoC。
+2. 场景足够深，涉及专业度、合规、质量和成本多维约束。
+可以参与决定 agent runtime、eval 和模型路由的架构方向
+
+
+
+高级前端架构师（富文本编辑器）  base：珠海
+
+职位描述
+我们正在打造一套AI原生的课程内容生产平台，希望找到一位真正理解复杂编辑器架构的前端架构师，一起把教育内容生产工具做到专业创作者可长期依赖的水平。
+
+岗位职责
+1. 主导核心编辑器链路的前端架构设计、技术选型和长期演进。
+2. 负责富文本、时间轴、AI Copilot等复杂交互模块的方案设计与落地。
+3. 和产品、设计一起收敛复杂交互，推动体验、性能和可维护性的平衡。
+4. 建设前端测试体系，推进单元测试、集成测试、E2E和性能治理。
+5. 参与前端工程分层、领域建模、状态管理和代码规范建设。
+
+任职要求
+1. 5年以上前端工程经验，熟练使用React、TypeScript，并有大型前端项目经验。
+2. 做过复杂编辑器的架构级工作，对schema建模、selection、range、transform、插件体系有深入理解。
+3. 深度使用过Prosemirror、TipTap、Slate、Lexical等开源编辑器，并做过自定义schema、node、plugin，或参与过自研编辑器引擎核心模块。
+4. 熟悉TypeScript严格模式，有复杂类型建模、状态管理和前端架构分层经验。
+5. 有大型前端工程测试、E2E、性能优化和工程治理经验。
+
+加分项
+1. 做过时间轴类编辑器、多轨道编辑器、音视频同步、白板渲染等复杂编辑体验。
+2. 参与过自研编辑器引擎、协同编辑或高复杂度渲染层建设。
+3. 有LLM辅助编辑、AI Coding、AI Copilot交互的实际落地经验。
+4. 有开源项目、技术分享或社区影响力。
+
+岗位亮点
+1. 真正复杂的技术挑战，不是简单业务页面，也不是套壳工具。
+2. 创始期核心岗位，可以共同决定平台未来几年的架构方向。
+3. AI与内容生产深度结合，Inline Copilot、任务级Agent、多Agent审稿都会进入产品。
+4.团队重视测试、文档、架构一致性和工程质量。
+
+
+
+高级Go后端架构师（长任务） base：珠海
+
+职位描述
+我们正在打造AI原生课程内容生产平台的后端基座，未来会向多租户SaaS和生产级Agent编排演进。希望找到一位有长任务系统经验的后端架构师，一起定义平台可靠性和扩展性边界。
+
+岗位职责
+1. 负责authoring、durable task、generation task、release等核心模块的设计与演进。
+2. 负责internal job与external callback双协议设计、可靠性治理和故障恢复。
+3. 主导CAS乐观锁、事务边界、幂等恢复、失败重试和补偿策略。
+4. 负责任务级Agent的后端编排，包括workflow、tool call、fallback和human-in-the-loop。
+5. 参与多租户、配额、计费、开放API等平台化能力的架构决策。
+6. 带1-2位中级后端工程师，进行code review、方案评审和任务拆解。
+
+任职要求
+1. 4年以上Go后端工程经验，有复杂系统架构设计经验。
+2. 熟悉PostgreSQL、Redis、Kafka，并能处理高可靠、高并发和异步任务场景。
+3. 熟悉DDD分层、聚合设计、事务边界和领域建模。
+4. 熟悉CAS、乐观锁、幂等、重试、补偿和状态机设计。
+5. 做过workflow engine、task queue、saga、durable job、订单编排、审批流、支付补偿或AI长任务系统中的至少一种。
+6. 能独立设计高可靠长任务系统，并能推动方案落地。
+
+加分项
+1. 做过内容平台、文档版本化或协作编辑后端。
+2. 做过 LLM 应用后端、异步生成任务或 callback 协议设计。
+3. 做过多租户 SaaS、配额、计费或开放 API 基础设施。
+
+岗位亮点
+1. 真实长任务场景，涉及 AI 生成、callback、状态机、幂等和回放。
+2. 创始期核心岗位，可参与多租户、计费、开放 API 等关键基础设施决策。
+3. 团队重视测试、设计文档和系统可靠性。
+
+
+
+解锁更多详情/职位请联系
+微信：Cathy-LYY
+简历请投：cathy.liu@gitalent.cn
